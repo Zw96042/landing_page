@@ -19,8 +19,11 @@
     flex: 1;
     flex-grow: 0;
     flex-shrink: 0;
-    width: 500px;
-    height: 250px;
+    width: 750px;
+    height: 375px;
+    align-self: center;
+    margin-right: 200px;
+    margin-top: 100px;
 }
 
 header {
@@ -29,17 +32,26 @@ header {
 }
 
 .hero_text {
-    font: 48px extra-bold #F9FAF8;
+    margin: 100px 200px 20px;
+    font-size: 72px;
+    color: #F9FAF8;
 }
 
 .hero_secondary {
-    font-size: 18px;
+    margin-left: 200px; 
+    margin-bottom: 20px;
+    font-size: 27px;
     color: #E5E7EB;
+    font-weight: 100;
 }
 
 .signup {
+    margin: 10px 200px auto;
     background: #3882F6;
     color: #F9FAF8;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 14px;
 }
 
 header {
@@ -50,10 +62,12 @@ header {
 .header_link {
     padding: 0 15px 15px;
     font-size: 18px;
+    font-weight: 100;
     color: #E5E7EB;
 }
 
 .header_link_last {
+    font-weight: 100;
     margin-right: 200px;
     font-size: 18px;
     color: #E5E7EB;
