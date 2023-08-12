@@ -9,6 +9,7 @@
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
+    padding: 20px;
 }
 
 .main_content {
@@ -19,11 +20,11 @@
     flex: 1;
     flex-grow: 0;
     flex-shrink: 0;
-    width: 750px;
-    height: 375px;
+    width: 500px;
+    height: 250px;
     align-self: center;
-    margin-right: 200px;
-    margin-top: 100px;
+    margin-right: 300px;
+    margin-top: 40px;
 }
 
 header {
@@ -32,26 +33,28 @@ header {
 }
 
 .hero_text {
-    margin: 100px 200px 20px;
-    font-size: 72px;
+    margin: 40px 300px 20px;
+    font-size: 48px;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
 .hero_secondary {
-    margin-left: 200px; 
+    margin-left: 300px; 
     margin-bottom: 20px;
-    font-size: 27px;
+    font-size: 18px;
     color: #E5E7EB;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 .signup {
-    margin: 10px 200px auto;
+    margin: 10px 300px auto;
     background: #3882F6;
     color: #F9FAF8;
+    font-weight: bolder;
     border: none;
     border-radius: 6px;
-    padding: 15px 21px;
+    padding: 12px 21px;
     cursor: pointer;
 }
 
@@ -77,6 +80,7 @@ header {
 .header_logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: lighter;
     margin-right: auto;
     margin-left: 200px;
 }
