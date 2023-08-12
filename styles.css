@@ -141,3 +141,34 @@ header {
     font-size: 18px;
     text-align: right;
 }
+
+.call_to_action {
+    background: #fff;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.call_banner {
+    background: #3882F6;
+    border-radius: 6px;
+    border: none;
+    margin: 0 500px;
+    padding: 40px 80px;
+    display: flex;
+}
+
+.call_header {
+    font-size: 24px;
+}
+
+.call_button {
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0 20px;
+    border-radius: 6px;
+    background: #3882F6;
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    font-weight: 700;
+}
